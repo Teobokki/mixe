@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "url": "https://github.com/Teobokki/mixe/releases/download/v1.0.0/MIXE-Setup-1.0.0.exe",
+  "installer_url": "https://github.com/Teobokki/mixe/releases/download/v1.0.0/MIXE-Setup-1.0.0.exe",
+  "portable_url": "https://github.com/Teobokki/mixe/releases/download/v1.0.0/MIXE-Portable-1.0.0.exe",
+  "release_url": "https://github.com/Teobokki/mixe/releases/tag/v1.0.0",
+  "sha256": "0fde234b860ebe8162c9591c8a0dbb6d04a157cbc3fdfe8d021743db915d40c1",
+  "size": 90937939,
+  "portable_sha256": "fcf01d91c40fa74a1abf1ceb41888465211daa227b61e20252eb43067a3e341f",
+  "portable_size": 123396028,
+  "published": "2026-11-12",
+  "notes": "MIXE 1.0.0 \u2014 QEMU + Android-x86 shell. Sideload APKs. System image downloads on first run (~966 MB)."
+}

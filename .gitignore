@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+build/
+build1f/
+dist/
+*.log
+.wine/
+*.iso
+*.qcow2
+*.part
+engine/qemu/
+engine/platform-tools/
+!engine/NOTICE.txt
+dist/
+build/
+build1f/
+*.log
