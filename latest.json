@@ -1,13 +1,13 @@
 {
-  "version": "2.0.0",
-  "url": "https://github.com/Teobokki/mixe/releases/download/v2.0.0/MIXE-Setup-2.0.0.exe",
-  "installer_url": "https://github.com/Teobokki/mixe/releases/download/v2.0.0/MIXE-Setup-2.0.0.exe",
-  "portable_url": "https://github.com/Teobokki/mixe/releases/download/v2.0.0/MIXE-Portable-2.0.0.exe",
-  "release_url": "https://github.com/Teobokki/mixe/releases/tag/v2.0.0",
-  "sha256": "b3a707007de1857f91033dbb77933343cf4e350e0a5c37d271afafd77cca009b",
-  "size": 21024709,
-  "portable_sha256": "a5394ea5a2abd86edf8634f67e0081ce468560f19d9d72103f50ae6e585c4867",
-  "portable_size": 27424279,
+  "version": "2.0.1",
+  "url": "https://github.com/Teobokki/mixe/releases/download/v2.0.1/MIXE-Setup-2.0.1.exe",
+  "installer_url": "https://github.com/Teobokki/mixe/releases/download/v2.0.1/MIXE-Setup-2.0.1.exe",
+  "portable_url": "https://github.com/Teobokki/mixe/releases/download/v2.0.1/MIXE-Portable-2.0.1.exe",
+  "release_url": "https://github.com/Teobokki/mixe/releases/tag/v2.0.1",
+  "sha256": "6bad7b3a0f7fac158bc66055f1e0a21b3292f59b2552deac18150f0a2723ace0",
+  "size": 21105310,
+  "portable_sha256": "b0dada71573b37cce3e9f9f9d62518a356ea90a2a0ec3a5a0523870ee381ca5f",
+  "portable_size": 27423245,
   "published": "2026-11-14",
-  "notes": "MIXE 2.0.0 \u2014 desktop email client. Add any IMAP/SMTP account, send and receive real mail."
+  "notes": "MIXE 2.0.1 \u2014 fixes install exit code 5 when upgrading over 1.0.0. Same email client as 2.0.0."
 }
