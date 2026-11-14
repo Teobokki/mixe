@@ -1,13 +1,13 @@
 {
-  "version": "1.0.0",
-  "url": "https://github.com/Teobokki/mixe/releases/download/v1.0.0/MIXE-Setup-1.0.0.exe",
-  "installer_url": "https://github.com/Teobokki/mixe/releases/download/v1.0.0/MIXE-Setup-1.0.0.exe",
-  "portable_url": "https://github.com/Teobokki/mixe/releases/download/v1.0.0/MIXE-Portable-1.0.0.exe",
-  "release_url": "https://github.com/Teobokki/mixe/releases/tag/v1.0.0",
-  "sha256": "0fde234b860ebe8162c9591c8a0dbb6d04a157cbc3fdfe8d021743db915d40c1",
-  "size": 90937939,
-  "portable_sha256": "fcf01d91c40fa74a1abf1ceb41888465211daa227b61e20252eb43067a3e341f",
-  "portable_size": 123396028,
-  "published": "2026-11-12",
-  "notes": "MIXE 1.0.0 \u2014 QEMU + Android-x86 shell. Sideload APKs. System image downloads on first run (~966 MB)."
+  "version": "2.0.0",
+  "url": "https://github.com/Teobokki/mixe/releases/download/v2.0.0/MIXE-Setup-2.0.0.exe",
+  "installer_url": "https://github.com/Teobokki/mixe/releases/download/v2.0.0/MIXE-Setup-2.0.0.exe",
+  "portable_url": "https://github.com/Teobokki/mixe/releases/download/v2.0.0/MIXE-Portable-2.0.0.exe",
+  "release_url": "https://github.com/Teobokki/mixe/releases/tag/v2.0.0",
+  "sha256": "b3a707007de1857f91033dbb77933343cf4e350e0a5c37d271afafd77cca009b",
+  "size": 21024709,
+  "portable_sha256": "a5394ea5a2abd86edf8634f67e0081ce468560f19d9d72103f50ae6e585c4867",
+  "portable_size": 27424279,
+  "published": "2026-11-14",
+  "notes": "MIXE 2.0.0 \u2014 desktop email client. Add any IMAP/SMTP account, send and receive real mail."
 }
