@@ -1,6 +1,5 @@
 # -*- mode: python ; coding: utf-8 -*-
-import os, sys
-from PyInstaller.utils.hooks import collect_all
+import os
 ONEFILE = bool(os.environ.get("MIXE_ONEFILE"))
 excl = ['matplotlib', 'scipy', 'pandas', 'IPython', 'pytest', 'torch', 'cv2', 'tkinter',
         'PySide6.Qt3DCore', 'PySide6.Qt3DRender', 'PySide6.QtCharts', 'PySide6.QtDataVisualization',
@@ -14,7 +13,7 @@ excl = ['matplotlib', 'scipy', 'pandas', 'IPython', 'pytest', 'torch', 'cv2', 't
         'PySide6.QtHttpServer', 'PySide6.QtLocation', 'PySide6.QtAxContainer', 'PySide6.QtMultimedia']
 a = Analysis(
     ['mixe.py'],
-    datas=[('assets', 'assets'), ('engine', 'engine')],
+    datas=[('assets', 'assets')],
     binaries=[],
     hiddenimports=[],
     excludes=excl,

@@ -1,4 +1,4 @@
-#define MyVer "1.0.0"
+#define MyVer "2.0.0"
 #define MyApp "MIXE"
 [Setup]
 AppId={{A1D8E4C2-9F70-4B3E-8C15-6D2A9E7B4F01}
@@ -34,6 +34,10 @@ CloseApplications=yes
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
+
+[InstallDelete]
+Type: filesandordirs; Name: "{app}\_internal\engine"
+Type: filesandordirs; Name: "{app}\engine"
 
 [Files]
 Source: "dist\{#MyApp}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
