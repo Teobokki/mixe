@@ -9,7 +9,7 @@ import traceback
 import uuid
 
 APP = "MIXE"
-APP_VERSION = "2.0.0"
+APP_VERSION = "2.0.1"
 COPYRIGHT = "\u00a92026 EX Inc./HYPERION DIGITAL \u00a92026"
 REPO = "Teobokki/mixe"
 UPDATE_URL = "https://raw.githubusercontent.com/%s/main/latest.json" % REPO

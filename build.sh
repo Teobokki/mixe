@@ -3,7 +3,7 @@
 set -e
 export PATH=/workspace/wine-portable/current/bin:$PATH WINEPREFIX=/workspace/exwifi/.wine WINEDEBUG=-all
 cd /workspace/mixe
-V=2.0.0
+V=2.0.1
 rm -rf build dist build1f
 wine 'C:\Python311\python.exe' -m PyInstaller --noconfirm MIXE.spec > pyi.log 2>&1; echo PYI_DONE
 wine 'C:\InnoSetup\ISCC.exe' installer.iss > iss.log 2>&1; echo ISS_DONE
